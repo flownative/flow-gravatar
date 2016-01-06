@@ -1,0 +1,23 @@
+{
+  "name": "flownative/gravatar",
+  "type": "typo3-flow-package",
+  "description": "Gravatar View Helper for Flow",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Lemke",
+      "email": "robert@flownative.com"
+    }
+  ],
+  "support": {
+    "email": "support@flownative.com"
+  },
+  "require": {
+    "typo3/flow": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flownative\\Gravatar\\": "Classes"
+    }
+  }
+}
