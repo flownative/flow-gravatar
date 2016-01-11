@@ -70,6 +70,9 @@ class GravatarViewHelper extends AbstractTagBasedViewHelper {
                 $this->tag->addAttribute('height', $this->arguments['size']);
             }
         }
+        if (!isset($this->arguments['alt'])) {
+            $this->tag->addAttribute('alt', 'Gravatar');
+        }
         if (count($uriParts)) {
             $gravatarUri .= '?' . implode('&', $uriParts);
         }
