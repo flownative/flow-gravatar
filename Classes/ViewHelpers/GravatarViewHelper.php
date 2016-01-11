@@ -65,6 +65,10 @@ class GravatarViewHelper extends AbstractTagBasedViewHelper {
         }
         if ($this->arguments['size']) {
             $uriParts[] = 's=' . $this->arguments['size'];
+            if (!isset($this->arguments['width']) && !isset($this->arguments['height'])) {
+                $this->tag->addAttribute('width', $this->arguments['size']);
+                $this->tag->addAttribute('height', $this->arguments['size']);
+            }
         }
         if (count($uriParts)) {
             $gravatarUri .= '?' . implode('&', $uriParts);
