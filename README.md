@@ -5,7 +5,7 @@
 
 # Gravatar View Helper for Flow
 
-This package provides a Fluid View Helper which can be used in Flow Framework based applications for displaying
+This package provides a Fluid View Helper which can be used in Neos Flow based applications for displaying
 Gravatar images.
 
 ## Installation
@@ -14,7 +14,7 @@ The Flownative Gravatar package is installed as a regular Flow package via Compo
 simply include `flownative/gravatar` into the dependencies of your Flow or Neos distribution:
 
 ```bash
-    $ composer require flownative/gravatar:~1.0
+    $ composer require flownative/gravatar:~2.0
 ```
 
 ## Usage
