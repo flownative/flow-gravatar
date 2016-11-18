@@ -7,7 +7,7 @@ namespace Flownative\Gravatar\ViewHelpers;
  * (c) Robert Lemke, Flownative GmbH - www.flownative.com
  */
 
-use TYPO3\Fluid\Core\ViewHelper\AbstractTagBasedViewHelper;
+use Neos\FluidAdaptor\Core\ViewHelper\AbstractTagBasedViewHelper;
 
 /**
  * A view helper to display a Gravatar
