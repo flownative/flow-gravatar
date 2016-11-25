@@ -1,6 +1,6 @@
 {
     "name": "flownative/gravatar",
-    "type": "typo3-flow-package",
+    "type": "neos-package",
     "description": "Gravatar View Helper for Flow",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
         "email": "support@flownative.com"
     },
     "require": {
-        "typo3/flow": "~4.0"
+        "typo3/flow": "~4.0 || dev-master"
     },
     "autoload": {
         "psr-4": {
